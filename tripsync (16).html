@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>VoyEG</title>
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="VoyEG">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#F3ECDA">
+</head>
+<body>
+<style>
+  #tripsync-root {
+    --font-display: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    --font-body: -apple-system, 'Segoe UI', system-ui, sans-serif;
+    --font-mono: ui-monospace, 'SF Mono', 'Courier New', monospace;
+    --paper: #F3ECDA;
+    --paper-dark: #E7DCC1;
+    --card: #FBF7EC;
+    --ink: #2A2723;
+    --ink-soft: #756C5C;
+    --red: #B33A2E;
+    --blue: #1F4E79;
+    --madrid: #C1892E;
+    --barcelona: #2E7D6B;
+    --paris: #A85273;
+    --line: rgba(42,39,35,0.16);
+    font-family: var(--font-body);
+    background: var(--paper);
+    background-image:
+      radial-gradient(rgba(42,39,35,0.05) 1px, transparent 1px);
+    background-size: 14px 14px;
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 14px 70px;
+    box-sizing: border-box;
+  }
+  #tripsync-root *{ box-sizing: border-box; }
+  .ts-wrap{ width: 100%; max-width: 480px; }
+
+  .ts-airmail{ height:10px; margin:0 -14px 22px; background:repeating-linear-gradient(-45deg, var(--red) 0 14px, var(--paper) 14px 20px, var(--blue) 20px 34px, var(--paper) 34px 40px); }
+
+  .ts-h1{ font-family:var(--font-display); font-weight:700; letter-spacing:-0.01em; }
+
+  /* ---- Welcome screen ---- */
+  .ts-welcome{ padding-top: 6vh; text-align:center; }
+  .ts-eyebrow{ font-family:var(--font-mono); font-size:11px; letter-spacing:.18em; color:var(--red); text-transform:uppercase; margin-bottom:10px; }
+  .ts-welcome h1{ font-size:38px; margin:0 0 10px; }
+  .ts-welcome p{ color:var(--ink-soft); font-size:15px; margin:0 0 30px; line-height:1.55; }
+  .ts-card{ background:var(--card); color:var(--ink); border-radius:4px; padding:20px; margin-bottom:14px; border:1px solid var(--line); box-shadow:0 1px 0 rgba(42,39,35,0.05); }
+  .ts-btn{ font-family:var(--font-body); font-weight:600; font-size:15px; border:none; border-radius:3px; padding:13px 18px; cursor:pointer; width:100%; transition:transform .1s ease, opacity .15s ease; letter-spacing:.01em; }
+  .ts-btn:active{ transform: scale(0.98); }
+  .ts-btn-gold{ background:var(--red); color:#fff; }
+  .ts-btn-outline{ background:transparent; color:var(--ink); border:1px solid var(--ink); }
+  .ts-btn-teal{ background:var(--blue); color:#fff; }
+  .ts-input{ width:100%; font-family:var(--font-body); font-size:15px; padding:12px 13px; border-radius:3px; border:1px solid rgba(42,39,35,0.25); background:#fff; color:var(--ink); margin-bottom:10px; }
+  .ts-input::placeholder{ color:#a89f8f; }
+  .ts-err{ color:var(--red); font-size:13px; margin:-4px 0 10px; font-family:var(--font-mono); }
+
+  /* ---- Trip code: passport ink stamp ---- */
+  .ts-stub{ background:transparent; color:var(--ink); position:relative; padding:14px 10px 20px; display:flex; align-items:center; justify-content:center; gap:22px; }
+  .ts-stub .ts-stamp{ border:2.5px solid var(--red); border-radius:50%; width:104px; height:104px; display:flex; flex-direction:column; align-items:center; justify-content:center; transform:rotate(-7deg); position:relative; }
+  .ts-stub .ts-stamp::before{ content:''; position:absolute; inset:6px; border:1px dashed var(--red); border-radius:50%; }
+  .ts-stub .ts-code-label{ font-family:var(--font-mono); font-size:8px; letter-spacing:.12em; color:var(--red); text-transform:uppercase; }
+  .ts-stub .ts-code{ font-family:var(--font-mono); font-weight:700; font-size:18px; letter-spacing:.08em; color:var(--red); }
+  .ts-copy{ font-family:var(--font-mono); font-size:12px; background:var(--ink); color:var(--paper); border:none; border-radius:3px; padding:9px 14px; cursor:pointer; white-space:nowrap; }
+
+  /* ---- App shell ---- */
+  .ts-header{ display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px; padding-top:18px; }
+  .ts-tripname{ font-size:23px; margin:0; }
+  .ts-sync{ font-family:var(--font-mono); font-size:10.5px; color:var(--ink-soft); text-align:right; }
+  .ts-sync .dot{ display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--barcelona); margin-right:5px; }
+
+  .ts-tabs{ display:flex; gap:6px; overflow-x:auto; padding-bottom:4px; margin-bottom:16px; }
+  .ts-tab{ font-family:var(--font-mono); font-size:12px; letter-spacing:.02em; padding:8px 13px; border-radius:3px; border:1px solid var(--line); background:var(--card); color:var(--ink-soft); white-space:nowrap; cursor:pointer; }
+  .ts-tab.active{ background:var(--ink); color:var(--paper); border-color:var(--ink); font-weight:600; }
+
+  .ts-daytabs{ display:flex; gap:6px; overflow-x:auto; margin-bottom:16px; }
+  .ts-daytab{ font-family:var(--font-display); font-size:14px; font-weight:700; padding:7px 13px; border-radius:3px; background:var(--card); color:var(--ink); border:1px solid var(--line); cursor:pointer; white-space:nowrap; }
+  .ts-daytab.active{ background:var(--blue); border-color:var(--blue); color:#fff; }
+  .ts-daytab.add{ color:var(--red); border-style:dashed; font-family:var(--font-body); font-weight:600; }
+
+  .ts-section-title{ font-family:var(--font-mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 10px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+
+  /* ---- Item cards (postcard) ---- */
+  .ts-item{ background:var(--card); color:var(--ink); border-radius:4px; padding:14px 16px; margin-bottom:10px; position:relative; border:1px solid var(--line); border-left:4px solid var(--madrid); }
+  .ts-item-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+  .ts-item-time{ font-family:var(--font-mono); font-weight:700; font-size:14px; color:var(--blue); min-width:50px; }
+  .ts-item-title{ font-weight:700; font-size:15px; font-family:var(--font-display); }
+  .ts-item-type{ font-family:var(--font-mono); font-size:10px; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft); margin-top:2px; }
+  .ts-item-note{ font-size:13px; color:var(--ink-soft); margin-top:6px; line-height:1.4; }
+  .ts-del{ background:none; border:none; color:var(--red); font-size:18px; cursor:pointer; line-height:1; padding:2px 4px; }
+  .ts-edit{ background:none; border:none; font-size:15px; cursor:pointer; line-height:1; padding:2px 6px; opacity:0.8; }
+  .ts-divider{ border-top:1px dashed var(--line); margin:10px 0; }
+  .ts-kv{ display:flex; justify-content:space-between; font-size:13px; margin-top:4px; }
+  .ts-kv span:first-child{ color:var(--ink-soft); }
+  .ts-kv span:last-child{ font-family:var(--font-mono); font-weight:600; }
+
+  .ts-outfit-photo{ width:100%; max-height:260px; object-fit:cover; border-radius:3px; margin-bottom:8px; border:1px solid var(--line); }
+  .ts-empty{ text-align:center; color:var(--ink-soft); font-size:14px; padding:30px 10px; font-style:italic; }
+
+  .ts-fab{ position:fixed; bottom:calc(26px + env(safe-area-inset-bottom)); right:calc(50% - 240px + 20px); background:var(--red); color:#fff; border:3px solid var(--card); width:64px; height:64px; border-radius:50%; font-size:32px; line-height:1; cursor:pointer; box-shadow:0 8px 24px rgba(42,39,35,0.45); z-index:40; display:flex; align-items:center; justify-content:center; }
+  @media (max-width:520px){ .ts-fab{ right:20px; bottom:calc(22px + env(safe-area-inset-bottom)); } }
+
+  /* ---- Modal ---- */
+  .ts-modal-bg{ position:fixed; inset:0; background:rgba(42,39,35,0.55); display:flex; align-items:center; justify-content:center; z-index:50; padding:16px; overflow-y:auto; }
+  .ts-modal{ background:var(--paper); color:var(--ink); width:100%; max-width:480px; border-radius:10px; padding:22px 20px 26px; max-height:82vh; overflow-y:auto; border-top:3px solid var(--red); margin:auto; }
+  .ts-modal h3{ font-family:var(--font-display); margin:0 0 14px; }
+  .ts-label{ font-size:12px; font-weight:600; color:var(--ink-soft); margin:10px 0 4px; display:block; }
+  .ts-row2{ display:flex; gap:8px; }
+  .ts-row2 .ts-input{ flex:1; }
+  .ts-close{ position:absolute; top:16px; right:18px; background:none; border:none; font-size:20px; color:var(--ink-soft); cursor:pointer; }
+</style>
+
+<div id="tripsync-root">
+  <div class="ts-wrap" id="ts-app"></div>
+</div>
+
+<script>
+(function(){
+  const root = document.getElementById('ts-app');
+  let state = {
+    screen: 'welcome', // welcome | join | app
+    code: null,
+    data: null,
+    activeTab: 'itinerario',
+    activeDay: 1,
+    error: '',
+    syncedAt: null,
+    syncStatus: null,
+    busy: false,
+    editingId: null
+  };
+  const TYPE_LABELS = { hotel:'Hotel', lugar:'Lugar', calle:'Calle / Zona', actividad:'Actividad' };
+
+  function emptyData(name){
+    return {
+      name: name || 'Mi viaje',
+      days: [{id:1, label:'Día 1'}],
+      itinerary: [],
+      flights: [],
+      hotels: [],
+      outfits: [],
+      packing: [],
+      expenses: [],
+      photospots: []
+    };
+  }
+
+  function templateData(){
+    const d = emptyData('Madrid - Barcelona - París');
+    const days = ['23 sep','24 sep','25 sep','26 sep','27 sep','28 sep','29 sep','30 sep','1 oct','2 oct','3 oct'];
+    d.days = days.map((label,i)=>({id:i+1, label}));
+    const add = (dayLabel, type, time, title, note)=>{
+      const day = d.days.find(x=>x.label===dayLabel);
+      d.itinerary.push({id:id(), day:day.id, type, time, title, note});
+    };
+    add('23 sep','actividad','12:40','✈️ Vuelo Rosario → São Paulo','LA 8171, LATAM Airlines Brasil. Llega 15:25.');
+    add('23 sep','actividad','19:20','✈️ Vuelo São Paulo → Madrid','LA 1526, Iberia. Llega 24/09 10:45.');
+    add('24 sep','lugar','11:00','✈️ Llegada a Madrid','Llegada + traslado al alojamiento + dejar valijas. 💰 Transporte');
+    add('24 sep','lugar','13:30','🍝 Almuerzo','Almorzar cerca del alojamiento o Sol. 💰 Variable');
+    add('24 sep','lugar','15:00','Puerta del Sol','Kilómetro 0, Oso y el Madroño y fotos. 🆓 Gratis');
+    add('24 sep','lugar','15:30','Plaza Mayor','Recorrer la plaza y sus alrededores. 🆓 Gratis');
+    add('24 sep','lugar','16:00','Mercado de San Miguel','Mirar puestos y, si quieren, probar algo. 🆓 Entrada / 💰 comida');
+    add('24 sep','lugar','16:40','Plaza de la Villa','Paseo por el Madrid de los Austrias. 🆓 Gratis');
+    add('24 sep','lugar','17:15','Catedral de la Almudena','Ver interior si quieren; también vale la pena el exterior. 🆓/💰 según visita');
+    add('24 sep','lugar','18:00','Palacio Real — exterior','Ver fachada y Plaza de Oriente. Dejamos la visita interior para el día siguiente. 🆓 Exterior');
+    add('24 sep','lugar','18:30','Jardines de Sabatini','Paseo y fotos con el Palacio de fondo. 🆓 Gratis');
+    add('24 sep','lugar','19:15','Templo de Debod','Ver el templo y quedarse para el atardecer si el horario de luz acompaña. 🆓 Gratis');
+    add('24 sep','lugar','20:15','Gran Vía + Callao','Caminar por Gran Vía, Callao y alrededores. 🆓 Gratis');
+    add('24 sep','lugar','21:00','🍽️ Cena','Cena por Gran Vía / Malasaña / Chueca. 💰 Variable');
+    add('25 sep','actividad','','🎓 Graduación','⚠️ Revisar horario exacto: puede superponerse con el resto del itinerario del día 25 (Palacio Real, Retiro, Prado). Ajustar el orden según el horario de la ceremonia.');
+    add('25 sep','lugar','09:00','Palacio Real ⭐','Visita interior completa. Comprar entrada anticipada. 💰 Pago');
+    add('25 sep','lugar','11:00','Plaza de Oriente + Almudena','Fotos y paseo si no se hizo completo el día anterior. 🆓/💰');
+    add('25 sep','lugar','11:30','🚇 Hacia Retiro','Metro/taxi recomendado para ahorrar tiempo. 💰 Transporte');
+    add('25 sep','lugar','12:00','Puerta de Alcalá','Fotos y entrada al Retiro. 🆓 Gratis');
+    add('25 sep','lugar','12:15','Parque del Retiro ⭐','Estanque, Palacio de Cristal y paseo. 🆓 Gratis');
+    add('25 sep','lugar','14:00','🍝 Almuerzo','Comer por Retiro / Barrio de las Letras. 💰 Variable');
+    add('25 sep','lugar','15:30','Museo del Prado ⭐','Visita de las obras principales. Si no les interesan museos, reemplazar por más paseo. 💰 Pago');
+    add('25 sep','lugar','17:30','Paseo del Prado','Caminar hacia Cibeles. 🆓 Gratis');
+    add('25 sep','lugar','18:00','Plaza de Cibeles','Fotos del Palacio de Cibeles y fuente. 🆓 Gratis');
+    add('25 sep','lugar','18:30','Barrio de las Letras','Calle Huertas, plazas y calles históricas. 🆓 Gratis');
+    add('25 sep','lugar','19:30','Plaza de Santa Ana','Último paseo y tomar algo. 🆓 Gratis');
+    add('25 sep','lugar','20:30','🍽️ Cena','Cena por Letras / Sol / Chueca. 💰 Variable');
+    add('26 sep','actividad','','Tren a Barcelona','AVE Madrid–Barcelona, ~2h30. Salir temprano para aprovechar el día.');
+    add('26 sep','lugar','09:00','Plaça de Catalunya','Punto de partida y fotos. 🆓 Gratis');
+    add('26 sep','lugar','09:15','La Rambla','Caminar hacia el casco histórico. 🆓 Gratis');
+    add('26 sep','lugar','10:00','Mercat de la Boqueria','Dar una vuelta y comprar algo para probar. 🆓 Entrada');
+    add('26 sep','lugar','10:30','Barrio Gótico','Callejear: Plaça Reial, Plaça Sant Jaume y Pont del Bisbe. 🆓 Gratis');
+    add('26 sep','lugar','11:00','Catedral de Barcelona','Ver exterior; entrar solo si quieren visitar el interior/claustro. 💰 Interior: pago según modalidad');
+    add('26 sep','lugar','11:45','Pont del Bisbe + Plaça Sant Jaume','Fotos y paseo por el corazón del Gótico. 🆓 Gratis');
+    add('26 sep','lugar','12:30','Plaça Reial','Paseo y fotos. 🆓 Gratis');
+    add('26 sep','lugar','13:00','🍝 Almuerzo','Comer por Gótico/Born para no desviarse. 💰 Variable');
+    add('26 sep','lugar','14:30','Santa Maria del Mar','Ver la basílica; interior opcional según horario/modalidad. 💰 Interior: opcional');
+    add('26 sep','lugar','15:15','Passeig del Born','Caminar por el barrio y sus calles. 🆓 Gratis');
+    add('26 sep','lugar','16:00','Parc de la Ciutadella','Paseo, fotos y descanso. 🆓 Gratis');
+    add('26 sep','lugar','17:00','Arc de Triomf','Fotos y paseo por el Passeig de Lluís Companys. 🆓 Gratis');
+    add('26 sep','lugar','18:00','Port Vell','Bajar hacia el puerto y caminar por el paseo marítimo. 🆓 Gratis');
+    add('26 sep','lugar','18:30','Barceloneta + playa','Atardecer, paseo y playa. 🆓 Gratis');
+    add('26 sep','lugar','20:00','🍽️ Cena','Barceloneta o Born. 💰 Variable');
+    add('27 sep','lugar','09:00','Sagrada Família ⭐','Visita completa de la basílica + museo + audioguía. 💰 €26 general / €24 estudiante o <30');
+    add('27 sep','lugar','10:45','Avinguda Gaudí','Paseo peatonal hacia Sant Pau. 🆓 Gratis');
+    add('27 sep','lugar','11:00','Hospital de Sant Pau','Ver el conjunto modernista; entrar es opcional. 🆓 Exterior / 💰 interior');
+    add('27 sep','lugar','12:30','🍝 Almuerzo','Comer por Eixample. 💰 Variable');
+    add('27 sep','lugar','14:00','Passeig de Gràcia','Paseo por la avenida y mirar las fachadas modernistas. 🆓 Gratis');
+    add('27 sep','lugar','14:15','Casa Batlló ⭐','Visitar interior si quieren sumar una casa de Gaudí. 💰 Desde €29');
+    add('27 sep','lugar','15:15','La Pedrera / Casa Milà ⭐','Alternativa a Casa Batlló: interior + azotea. 💰 Desde €29');
+    add('27 sep','lugar','16:30','Eixample','Paseo tranquilo; elegir Casa Batlló O La Pedrera para no saturar. 🆓 Gratis');
+    add('27 sep','lugar','17:00','Park Güell ⭐','Zona monumental de Gaudí + vistas panorámicas. 💰 €18 general');
+    add('27 sep','lugar','19:00','Barrio de Gràcia','Callejear y tomar algo. 🆓 Gratis');
+    add('27 sep','lugar','20:00','🍽️ Cena','Cenar por Gràcia. 💰 Variable');
+    add('28 sep','actividad','','✈️ Vuelo a París','Barcelona → París. Salir con margen al aeropuerto de El Prat.');
+    add('29 sep','lugar','','Palacio de Versalles','Ir temprano, día completo');
+    add('30 sep','lugar','','Torre Eiffel','');
+    add('30 sep','lugar','','Museo del Louvre','');
+    add('30 sep','lugar','','☕ Carette','Frente a Place des Vosges, Marais. Ideal para el desayuno o la merienda con vista a la plaza.');
+    add('1 oct','lugar','','Montmartre','');
+    add('1 oct','lugar','','Museo d\'Orsay','');
+    add('1 oct','lugar','','🍽️ L\'As du Falafel','Rue des Rosiers, Marais. El falafel más recomendado de París.');
+    add('1 oct','lugar','','🥐 Poilâne','Panadería histórica. Probar las tartas de manzana individuales.');
+    add('2 oct','actividad','','✈️🚄 Volver a Madrid','Viaje de París a Madrid (definir tren o avión) para llegar a tiempo al vuelo del 3/10.');
+    add('3 oct','actividad','','Mañana libre en Madrid','Últimas compras o paseo cerca del alojamiento antes del vuelo.');
+    add('3 oct','actividad','13:20','✈️ Vuelo Madrid → Lima','LA 5392, Iberia. Llega 18:20.');
+    add('3 oct','actividad','','⏳ Escala en Lima','Esperar conexión al vuelo a Rosario.');
+    add('3 oct','actividad','00:10 (04/10)','✈️ Vuelo Lima → Rosario','LA 2432, LATAM Airlines Perú. Llega 06:10 del 4/10 — ¡de vuelta en casa!');
+
+    const addHotel = (name, address, checkin, checkout, note)=>{
+      d.hotels.push({id:id(), name, address, checkin, checkout, note});
+    };
+    addHotel('Petit Palace Puerta del Sol','Puerta del Sol, Madrid','','','~$150-190/noche la habitación doble. Recién renovado, ubicación inmejorable.');
+    addHotel('Petit Palace Preciados','A 250m de Gran Vía, Madrid','','','Alternativa similar, un poco más económica.');
+    addHotel('Hostal Lima / Casa Lirio Hotel Boutique','Barrio Gótico, Barcelona','','','~$130-200/noche la doble, en pleno centro histórico.');
+    addHotel('H10 Madison','Gótico, Barcelona','','','Boutique con rooftop, buena relación precio/estilo.');
+    addHotel('Hotel Caron de Beaumarchais','Le Marais, Paris','','','~$180-200/noche la doble. Clásico, con balcón a la calle, ubicación perfecta para caminar todo.');
+    addHotel('Grand Pigalle Hôtel','Pigalle / cerca Montmartre, Paris','','','Boutique bajo $200, buena opción alternativa en zona linda.');
+
+    const addPhoto = (city, place, tip)=>{
+      d.photospots.push({id:id(), city, place, tip, photo:null, note:''});
+    };
+    addPhoto('madrid','Gran Vía al atardecer','Parate en el medio de la vereda ancha mirando hacia los edificios altos, luz dorada como fondo.');
+    addPhoto('madrid','Plaza Mayor','Foto desde uno de los arcos de entrada, enmarcando la plaza completa.');
+    addPhoto('barcelona','Callejones del Barrio Gótico','Buscá una callecita angosta con ropa colgada o farolitos, andá temprano sin gente.');
+    addPhoto('barcelona','Park Güell (mosaico)','El banco ondulado de mosaicos con la ciudad de fondo, mejor a media mañana.');
+    addPhoto('paris','Rue Crémieux','La calle de casitas color pastel, 12º arrondissement. Ir bien temprano (residencial, poca gente respeta el lugar).');
+    addPhoto('paris','Rue de l\'Abreuvoir (Montmartre)','Calle empedrada con La Maison Rose de fondo, ícono de Montmartre.');
+    addPhoto('paris','Torre Eiffel desde Rue de l\'Université','La torre enmarcada entre los edificios haussmannianos, ideal atardecer.');
+    addPhoto('paris','Versalles - Jardines','Desde la escalinata mirando hacia la fuente de Latona, con el palacio de fondo.');
+
+    const addFlight = (airline, number, from, to, date, dep, arr)=>{
+      d.flights.push({id:id(), airline, number, from, to, date, dep, arr});
+    };
+    addFlight('LATAM Airlines Brasil','LA 8171','ROS','GRU (São Paulo)','2026-09-23','12:40','15:25');
+    addFlight('Iberia','LA 1526','GRU (São Paulo)','MAD','2026-09-23','19:20','10:45 (+1 día)');
+    addFlight('Iberia','LA 5392','MAD','LIM (Lima)','2026-10-03','13:20','18:20');
+    addFlight('LATAM Airlines Perú','LA 2432','LIM (Lima)','ROS','2026-10-03','00:10 (04/10)','06:10 (04/10)');
+
+    const addExpense = (label, amount, who)=>{
+      d.expenses.push({id:id(), label, amount, who});
+    };
+    addExpense('✈️ Vuelo Barcelona→París (para las 2)', 140, 'Estimado — falta reservar (€45-100 c/u con Vueling/Ryanair)');
+    addExpense('✈️🚄 Volver a Madrid desde París, 2 oct (para las 2)', 130, 'Estimado — falta reservar. Definir tren TGV+AVE o vuelo (deben llegar a tiempo para el vuelo del 3/10 13:20 desde Madrid)');
+    addExpense('🎟️ Sagrada Família (para las 2)', 48, 'Comprar online con anticipación — franjas horarias limitadas');
+    addExpense('🎟️ Park Güell (para las 2)', 36, 'Comprar online con anticipación');
+    addExpense('🎟️ Palacio Real Madrid (para las 2)', 36, 'Comprar entrada anticipada para el 25/09');
+    addExpense('🎟️ Museo del Prado (para las 2)', 0, 'Consultar tarifa vigente al momento de reservar — opcional si no son de museos');
+
+    return d;
+  }
+
+  function genCode(){
+    const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+    let c = '';
+    for(let i=0;i<6;i++) c += chars[Math.floor(Math.random()*chars.length)];
+    return c;
+  }
+
+  const API = 'https://api.jsonstorage.net/v1/json/';
+
+  function stripPhotos(data){
+    const clone = JSON.parse(JSON.stringify(data));
+    (clone.outfits||[]).forEach(o=>{ o.photo = null; });
+    (clone.photospots||[]).forEach(p=>{ p.photo = null; });
+    return clone;
+  }
+
+  function mergeLocalPhotos(remoteData, code){
+    try{
+      const raw = localStorage.getItem('cache:'+code);
+      if(!raw) return remoteData;
+      const local = JSON.parse(raw);
+      const localOutfits = {}; (local.outfits||[]).forEach(o=>{ if(o.photo) localOutfits[o.id]=o.photo; });
+      const localSpots = {}; (local.photospots||[]).forEach(p=>{ if(p.photo) localSpots[p.id]=p.photo; });
+      (remoteData.outfits||[]).forEach(o=>{ if(!o.photo && localOutfits[o.id]) o.photo = localOutfits[o.id]; });
+      (remoteData.photospots||[]).forEach(p=>{ if(!p.photo && localSpots[p.id]) p.photo = localSpots[p.id]; });
+    }catch(e){}
+    return remoteData;
+  }
+
+  function cacheLocally(){
+    try{ localStorage.setItem('cache:'+state.code, JSON.stringify(state.data)); }catch(e){}
+  }
+
+  async function apiCreate(data){
+    const res = await fetch(API.replace(/\/$/,''), {
+      method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(stripPhotos(data))
+    });
+    const json = await res.json();
+    const uri = json.uri || '';
+    const parts = uri.split('/v1/json/');
+    return parts[1] || '';
+  }
+
+  async function apiFetch(code){
+    const res = await fetch(API+code);
+    if(!res.ok) return null;
+    return await res.json();
+  }
+
+  async function apiUpdate(code, data){
+    await fetch(API+code, {
+      method:'PUT', headers:{'Content-Type':'application/json'}, body: JSON.stringify(stripPhotos(data))
+    });
+  }
+
+  async function saveData(){
+    cacheLocally();
+    state.syncStatus = 'saving';
+    try{
+      await apiUpdate(state.code, state.data);
+      state.syncStatus = 'ok';
+      state.syncedAt = new Date();
+    }catch(e){ state.syncStatus = 'error'; }
+    render();
+  }
+
+  let pollHandle = null;
+  function startPolling(){
+    stopPolling();
+    pollHandle = setInterval(async ()=>{
+      try{
+        const fresh = await apiFetch(state.code);
+        if(fresh){ state.data = mergeLocalPhotos(fresh, state.code); cacheLocally(); state.syncedAt = new Date(); render(); }
+      }catch(e){}
+    }, 45000);
+  }
+  function stopPolling(){ if(pollHandle) clearInterval(pollHandle); pollHandle = null; }
+
+  window.tsRefreshNow = async function(){
+    state.syncStatus = 'saving';
+    render();
+    try{
+      const fresh = await apiFetch(state.code);
+      if(fresh){ state.data = mergeLocalPhotos(fresh, state.code); cacheLocally(); }
+      state.syncStatus = 'ok'; state.syncedAt = new Date();
+    }catch(e){ state.syncStatus = 'error'; }
+    render();
+  };
+
+  function compressImage(file){
+    return new Promise((resolve,reject)=>{
+      const reader = new FileReader();
+      reader.onload = (e)=>{
+        const img = new Image();
+        img.onload = ()=>{
+          const maxW = 700;
+          const scale = Math.min(1, maxW/img.width);
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width*scale;
+          canvas.height = img.height*scale;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img,0,0,canvas.width,canvas.height);
+          resolve(canvas.toDataURL('image/jpeg', 0.72));
+        };
+        img.onerror = reject;
+        img.src = e.target.result;
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function id(){ return Date.now().toString(36)+Math.random().toString(36).slice(2,6); }
+
+  // ---------- Actions ----------
+  window.tsCreateTrip = async function(){
+    const nameInput = document.getElementById('ts-trip-name');
+    const name = (nameInput && nameInput.value.trim()) || 'Mi viaje';
+    state.data = emptyData(name);
+    state.error = ''; state.busy = true; render();
+    try{
+      state.code = await apiCreate(state.data);
+      cacheLocally();
+      state.screen = 'app';
+      startPolling();
+    }catch(e){
+      state.error = 'No se pudo crear el viaje. Revisá tu conexión a internet e intentá de nuevo.';
+    }
+    state.busy = false; render();
+  };
+
+  window.tsCreateTripTemplate = async function(){
+    state.data = templateData();
+    state.error = ''; state.busy = true; render();
+    try{
+      state.code = await apiCreate(state.data);
+      cacheLocally();
+      state.screen = 'app';
+      state.activeDay = 1;
+      startPolling();
+    }catch(e){
+      state.error = 'No se pudo crear el viaje. Revisá tu conexión a internet e intentá de nuevo.';
+    }
+    state.busy = false; render();
+  };
+
+  window.tsGoJoin = function(){ state.screen='join'; state.error=''; render(); };
+  window.tsGoWelcome = function(){ stopPolling(); state.screen='welcome'; state.error=''; render(); };
+
+  window.tsJoinTrip = async function(){
+    const inp = document.getElementById('ts-join-code');
+    const code = (inp.value||'').trim();
+    if(!code){ state.error='Ingresá el código del viaje.'; render(); return; }
+    state.error=''; state.busy = true; render();
+    try{
+      const data = await apiFetch(code);
+      if(!data){ state.error='No encontramos ese viaje. Revisá el código.'; state.busy=false; render(); return; }
+      state.code = code;
+      state.data = mergeLocalPhotos(data, code);
+      if(!state.data.photospots) state.data.photospots = [];
+      cacheLocally();
+      state.screen='app'; state.activeDay = (state.data.days[0]||{}).id || 1;
+      startPolling();
+    }catch(e){
+      state.error='No se pudo conectar. Revisá tu conexión a internet e intentá de nuevo.';
+    }
+    state.busy = false; render();
+  };
+
+  window.tsSetTab = function(t){ state.activeTab = t; render(); };
+  window.tsSetDay = function(d){ state.activeDay = d; render(); };
+  window.tsAddDay = function(){
+    const n = state.data.days.length+1;
+    state.data.days.push({id:n, label:'Día '+n});
+    state.activeDay = n;
+    saveData(); render();
+  };
+
+  window.tsCopyCode = function(){
+    navigator.clipboard && navigator.clipboard.writeText(state.code);
+    const btn = document.getElementById('ts-copy-btn');
+    if(btn){ const old = btn.textContent; btn.textContent='¡Copiado!'; setTimeout(()=>btn.textContent=old,1200); }
+  };
+
+  window.tsOpenModal = function(kind){
+    state.modal = kind;
+    state.editingId = null;
+    render();
+  };
+  window.tsCloseModal = function(){ state.modal = null; state.editingId = null; render(); };
+
+  window.tsEditItem = function(kind, list, itemId){
+    state.modal = kind;
+    state.editingId = itemId;
+    render();
+  };
+
+  window.tsDelete = function(list, itemId){
+    state.data[list] = state.data[list].filter(x=>x.id!==itemId);
+    saveData(); render();
+  };
+
+  window.tsSubmitItinerary = function(){
+    const title = document.getElementById('f-title').value.trim();
+    if(!title) return;
+    if(state.editingId){
+      const it = state.data.itinerary.find(x=>x.id===state.editingId);
+      if(it){
+        it.type = document.getElementById('f-type').value;
+        it.time = document.getElementById('f-time').value;
+        it.title = title;
+        it.note = document.getElementById('f-note').value.trim();
+      }
+    } else {
+      state.data.itinerary.push({
+        id:id(), day: state.activeDay,
+        type: document.getElementById('f-type').value,
+        time: document.getElementById('f-time').value,
+        title, note: document.getElementById('f-note').value.trim()
+      });
+    }
+    saveData(); state.modal=null; state.editingId=null; render();
+  };
+
+  window.tsSubmitFlight = function(){
+    const airline = document.getElementById('f-airline').value.trim();
+    if(!airline) return;
+    const vals = {
+      airline,
+      number: document.getElementById('f-number').value.trim(),
+      from: document.getElementById('f-from').value.trim(),
+      to: document.getElementById('f-to').value.trim(),
+      date: document.getElementById('f-date').value,
+      dep: document.getElementById('f-dep').value,
+      arr: document.getElementById('f-arr').value
+    };
+    if(state.editingId){
+      const it = state.data.flights.find(x=>x.id===state.editingId);
+      if(it) Object.assign(it, vals);
+    } else {
+      state.data.flights.push({ id:id(), ...vals });
+    }
+    saveData(); state.modal=null; state.editingId=null; render();
+  };
+
+  window.tsSubmitHotel = function(){
+    const name = document.getElementById('f-hname').value.trim();
+    if(!name) return;
+    const vals = {
+      name,
+      address: document.getElementById('f-haddr').value.trim(),
+      checkin: document.getElementById('f-hin').value,
+      checkout: document.getElementById('f-hout').value,
+      note: document.getElementById('f-hnote').value.trim()
+    };
+    if(state.editingId){
+      const it = state.data.hotels.find(x=>x.id===state.editingId);
+      if(it) Object.assign(it, vals);
+    } else {
+      state.data.hotels.push({ id:id(), ...vals });
+    }
+    saveData(); state.modal=null; state.editingId=null; render();
+  };
+
+  window.tsSubmitOutfit = async function(){
+    const fileInput = document.getElementById('f-photo');
+    const note = document.getElementById('f-onote').value.trim();
+    let photo = null;
+    if(fileInput.files && fileInput.files[0]){
+      photo = await compressImage(fileInput.files[0]);
+    }
+    if(state.editingId){
+      const it = state.data.outfits.find(x=>x.id===state.editingId);
+      if(it){
+        it.note = note;
+        if(photo) it.photo = photo;
+      }
+    } else {
+      if(!photo && !note) return;
+      state.data.outfits.push({ id:id(), day: state.activeDay, photo, note });
+    }
+    saveData(); state.modal=null; state.editingId=null; render();
+  };
+
+  window.tsTogglePack = function(itemId){
+    const it = state.data.packing.find(p=>p.id===itemId);
+    if(it){ it.done = !it.done; saveData(); render(); }
+  };
+  window.tsSubmitPack = function(){
+    const label = document.getElementById('f-pack').value.trim();
+    if(!label) return;
+    if(state.editingPackId){
+      const it = state.data.packing.find(p=>p.id===state.editingPackId);
+      if(it) it.label = label;
+      state.editingPackId = null;
+    } else {
+      state.data.packing.push({id:id(), label, done:false});
+    }
+    document.getElementById('f-pack').value='';
+    saveData(); render();
+  };
+  window.tsEditPack = function(itemId){
+    const it = state.data.packing.find(p=>p.id===itemId);
+    if(!it) return;
+    state.editingPackId = itemId;
+    render();
+    setTimeout(()=>{
+      const inp = document.getElementById('f-pack');
+      if(inp){ inp.value = it.label; inp.focus(); }
+    }, 50);
+  };
+
+  window.tsSubmitExpense = function(){
+    const label = document.getElementById('f-exlabel').value.trim();
+    const amount = parseFloat(document.getElementById('f-examount').value);
+    if(!label || isNaN(amount)) return;
+    const vals = { label, amount, who: document.getElementById('f-exwho').value.trim() || 'Sin asignar' };
+    if(state.editingId){
+      const it = state.data.expenses.find(x=>x.id===state.editingId);
+      if(it) Object.assign(it, vals);
+    } else {
+      state.data.expenses.push({ id:id(), ...vals });
+    }
+    saveData(); state.modal=null; state.editingId=null; render();
+  };
+
+  window.tsSubmitPhoto = async function(){
+    const place = document.getElementById('f-pplace').value.trim();
+    if(!place) return;
+    const fileInput = document.getElementById('f-pphoto');
+    let photo = null;
+    if(fileInput.files && fileInput.files[0]){
+      photo = await compressImage(fileInput.files[0]);
+    }
+    if(state.editingId){
+      const it = state.data.photospots.find(x=>x.id===state.editingId);
+      if(it){
+        it.city = document.getElementById('f-pcity').value;
+        it.place = place;
+        it.tip = document.getElementById('f-ptip').value.trim();
+        if(photo) it.photo = photo;
+      }
+    } else {
+      state.data.photospots.push({
+        id:id(),
+        city: document.getElementById('f-pcity').value,
+        place,
+        tip: document.getElementById('f-ptip').value.trim(),
+        note: '',
+        photo
+      });
+    }
+    saveData(); state.modal=null; state.editingId=null; render();
+  };
+
+  // ---------- Render ----------
+  function render(){
+    document.querySelectorAll('.ts-modal-bg').forEach(el => el.remove());
+    if(state.screen==='welcome') return renderWelcome();
+    if(state.screen==='join') return renderJoin();
+    return renderApp();
+  }
+
+  function renderWelcome(){
+    root.innerHTML = `
+      <div class="ts-airmail"></div>
+      <div class="ts-welcome">
+        <div class="ts-eyebrow">✈ Viajes en sincro</div>
+        <h1 class="ts-h1">VoyEG</h1>
+        <p>Armá el itinerario, los vuelos, los hoteles y hasta los outfits del viaje — se actualiza solo en los celulares de todos con el mismo código. (Las fotos quedan solo en el celular de quien las sube.)</p>
+        ${state.error?`<div class="ts-err">${state.error}</div>`:''}
+        <div class="ts-card">
+          <label class="ts-label">Nombre del viaje</label>
+          <input class="ts-input" id="ts-trip-name" placeholder="Ej: Bariloche con los chicos" />
+          <button class="ts-btn ts-btn-gold" onclick="tsCreateTrip()" ${state.busy?'disabled':''}>${state.busy?'Creando…':'Crear viaje nuevo'}</button>
+        </div>
+        <div class="ts-card">
+          <div style="font-weight:600; margin-bottom:4px;">¿Madrid → Barcelona → París?</div>
+          <div style="font-size:13px; color:#5c6478; margin-bottom:10px; line-height:1.4;">Arranca con el itinerario ya cargado (fechas y lugares) y lo editás desde ahí.</div>
+          <button class="ts-btn ts-btn-teal" onclick="tsCreateTripTemplate()" ${state.busy?'disabled':''}>${state.busy?'Creando…':'Usar esta plantilla'}</button>
+        </div>
+        <button class="ts-btn ts-btn-outline" onclick="tsGoJoin()">Ya tengo un código</button>
+      </div>`;
+  }
+
+  function renderJoin(){
+    root.innerHTML = `
+      <div class="ts-airmail"></div>
+      <div class="ts-welcome" style="padding-top:6vh;">
+        <div class="ts-eyebrow">Unirse a un viaje</div>
+        <h1 class="ts-h1" style="font-size:28px;">Ingresá el código</h1>
+        <p>Te lo tiene que haber mandado quien creó el viaje (aparece arriba, dentro de la app).</p>
+        <div class="ts-card">
+          <input class="ts-input" id="ts-join-code" placeholder="Ej: usr123/abc456" style="font-family:var(--font-mono);" />
+          ${state.error?`<div class="ts-err">${state.error}</div>`:''}
+          <button class="ts-btn ts-btn-teal" onclick="tsJoinTrip()" ${state.busy?'disabled':''}>${state.busy?'Buscando…':'Entrar al viaje'}</button>
+        </div>
+        <button class="ts-btn ts-btn-outline" onclick="tsGoWelcome()">Volver</button>
+      </div>`;
+  }
+
+  function fmtSync(){
+    if(state.syncStatus==='saving') return 'guardando…';
+    if(state.syncStatus==='error') return 'sin conexión — reintentando';
+    if(!state.syncedAt) return 'sincronizado';
+    return 'sync ' + state.syncedAt.toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit'});
+  }
+
+  function renderApp(){
+    const d = state.data;
+    root.innerHTML = `
+      <div class="ts-airmail"></div>
+      <div class="ts-header">
+        <div>
+          <h1 class="ts-h1 ts-tripname">${escapeHtml(d.name)}</h1>
+        </div>
+        <div class="ts-sync" onclick="tsRefreshNow()" style="cursor:pointer;"><span class="dot" style="background:${state.syncStatus==='error'?'var(--red)':'var(--barcelona)'};"></span>${fmtSync()} · 🔄</div>
+      </div>
+      <div class="ts-stub">
+        <div class="ts-stamp">
+          <div class="ts-code-label">Código</div>
+          <div class="ts-code" style="font-size:13px;">${state.code}</div>
+        </div>
+        <button class="ts-copy" id="ts-copy-btn" onclick="tsCopyCode()">Copiar código</button>
+      </div>
+      <div class="ts-tabs">
+        ${tabBtn('itinerario','Itinerario')}
+        ${tabBtn('vuelos','Vuelos')}
+        ${tabBtn('hoteles','Hoteles')}
+        ${tabBtn('outfits','Outfits')}
+        ${tabBtn('equipaje','Equipaje')}
+        ${tabBtn('gastos','Gastos')}
+        ${tabBtn('fotos','Fotos')}
+      </div>
+      <div id="ts-content"></div>
+    `;
+    renderContent();
+  }
+
+  function tabBtn(key,label){
+    return `<button class="ts-tab ${state.activeTab===key?'active':''}" onclick="tsSetTab('${key}')">${label}</button>`;
+  }
+
+  function renderContent(){
+    const el = document.getElementById('ts-content');
+    const d = state.data;
+    let html = '';
+    const needsDayTabs = state.activeTab==='itinerario' || state.activeTab==='outfits';
+
+    if(needsDayTabs){
+      html += `<div class="ts-daytabs">`;
+      d.days.forEach(day=>{
+        html += `<button class="ts-daytab ${state.activeDay===day.id?'active':''}" onclick="tsSetDay(${day.id})">${escapeHtml(day.label)}</button>`;
+      });
+      html += `<button class="ts-daytab add" onclick="tsAddDay()">+ día</button></div>`;
+    }
+
+    if(state.activeTab==='itinerario'){
+      const items = d.itinerary.filter(i=>i.day===state.activeDay).sort((a,b)=>(a.time||'').localeCompare(b.time||''));
+      html += `<div class="ts-section-title">Itinerario</div>`;
+      const cColor = cityColor(state.activeDay);
+      html += items.length ? items.map(it=>`
+        <div class="ts-item" style="border-left-color:${cColor};">
+          <div class="ts-item-top">
+            <div style="display:flex;gap:12px;">
+              <div class="ts-item-time">${it.time||'--:--'}</div>
+              <div>
+                <div class="ts-item-title">${escapeHtml(it.title)}</div>
+                <div class="ts-item-type">${TYPE_LABELS[it.type]||it.type}</div>
+              </div>
+            </div>
+            <button class="ts-edit" onclick="tsEditItem('itinerario','itinerary','${it.id}')">✏️</button><button class="ts-del" onclick="tsDelete('itinerary','${it.id}')">×</button>
+          </div>
+          ${it.note?`<div class="ts-item-note">${escapeHtml(it.note)}</div>`:''}
+        </div>`).join('') : emptyMsg('Nada cargado para este día todavía.');
+    }
+
+    else if(state.activeTab==='vuelos'){
+      html += `<div class="ts-section-title">Vuelos</div>`;
+      html += d.flights.length ? d.flights.map(f=>`
+        <div class="ts-item">
+          <div class="ts-item-top">
+            <div>
+              <div class="ts-item-title">${escapeHtml(f.airline)} ${f.number?('· '+escapeHtml(f.number)):''}</div>
+              <div class="ts-item-type">${escapeHtml(f.from)} → ${escapeHtml(f.to)}</div>
+            </div>
+            <button class="ts-edit" onclick="tsEditItem('vuelos','flights','${f.id}')">✏️</button><button class="ts-del" onclick="tsDelete('flights','${f.id}')">×</button>
+          </div>
+          <div class="ts-divider"></div>
+          <div class="ts-kv"><span>Fecha</span><span>${f.date||'-'}</span></div>
+          <div class="ts-kv"><span>Salida</span><span>${f.dep||'-'}</span></div>
+          <div class="ts-kv"><span>Llegada</span><span>${f.arr||'-'}</span></div>
+        </div>`).join('') : emptyMsg('Todavía no cargaste vuelos.');
+    }
+
+    else if(state.activeTab==='hoteles'){
+      html += `<div class="ts-section-title">Hoteles</div>`;
+      html += d.hotels.length ? d.hotels.map(h=>`
+        <div class="ts-item">
+          <div class="ts-item-top">
+            <div>
+              <div class="ts-item-title">${escapeHtml(h.name)}</div>
+              <div class="ts-item-type">${escapeHtml(h.address||'')}</div>
+            </div>
+            <button class="ts-edit" onclick="tsEditItem('hoteles','hotels','${h.id}')">✏️</button><button class="ts-del" onclick="tsDelete('hotels','${h.id}')">×</button>
+          </div>
+          <div class="ts-divider"></div>
+          <div class="ts-kv"><span>Check-in</span><span>${h.checkin||'-'}</span></div>
+          <div class="ts-kv"><span>Check-out</span><span>${h.checkout||'-'}</span></div>
+          ${h.note?`<div class="ts-item-note">${escapeHtml(h.note)}</div>`:''}
+        </div>`).join('') : emptyMsg('Todavía no cargaste hoteles.');
+    }
+
+    else if(state.activeTab==='outfits'){
+      const items = d.outfits.filter(o=>o.day===state.activeDay);
+      html += `<div class="ts-section-title">Outfits</div>`;
+      const oColor = cityColor(state.activeDay);
+      html += items.length ? items.map(o=>`
+        <div class="ts-item" style="border-left-color:${oColor};">
+          <div class="ts-item-top">
+            <div style="flex:1;">
+              ${o.photo?`<img class="ts-outfit-photo" src="${o.photo}" />`:''}
+              ${o.note?`<div class="ts-item-note">${escapeHtml(o.note)}</div>`:''}
+            </div>
+            <button class="ts-edit" onclick="tsEditItem('outfits','outfits','${o.id}')">✏️</button><button class="ts-del" onclick="tsDelete('outfits','${o.id}')">×</button>
+          </div>
+        </div>`).join('') : emptyMsg('Sin outfits cargados para este día.');
+    }
+
+    else if(state.activeTab==='equipaje'){
+      html += `<div class="ts-section-title">Checklist de equipaje</div>`;
+      html += d.packing.length ? d.packing.map(p=>`
+        <div class="ts-item" style="display:flex;align-items:center;gap:10px;">
+          <input type="checkbox" ${p.done?'checked':''} onchange="tsTogglePack('${p.id}')" style="width:18px;height:18px;" />
+          <div style="flex:1; ${p.done?'text-decoration:line-through;color:#9aa2b1;':''}">${escapeHtml(p.label)}</div>
+          <button class="ts-edit" onclick="tsEditPack('${p.id}')">✏️</button><button class="ts-del" onclick="tsDelete('packing','${p.id}')">×</button>
+        </div>`).join('') : emptyMsg('Lista vacía por ahora.');
+      html += `
+        <div class="ts-card" style="margin-top:10px;">
+          ${state.editingPackId?'<div style="font-size:12px;color:var(--red);margin-bottom:6px;">Editando ítem…</div>':''}
+          <div class="ts-row2">
+            <input class="ts-input" id="f-pack" placeholder="Ej: cargador, protector solar…" style="margin-bottom:0;" />
+            <button class="ts-btn ts-btn-teal" style="width:auto; padding:0 16px;" onclick="tsSubmitPack()">${state.editingPackId?'✓':'+'}</button>
+          </div>
+        </div>`;
+    }
+
+    else if(state.activeTab==='gastos'){
+      const total = d.expenses.reduce((s,e)=>s+e.amount,0);
+      html += `<div class="ts-section-title">Gastos</div>`;
+      html += `<div class="ts-item" style="text-align:center;"><div class="ts-item-type">Total cargado</div><div style="font-family:var(--font-mono);font-size:26px;font-weight:600;">$${total.toFixed(2)}</div></div>`;
+      html += d.expenses.length ? d.expenses.map(e=>`
+        <div class="ts-item">
+          <div class="ts-item-top">
+            <div>
+              <div class="ts-item-title">${escapeHtml(e.label)}</div>
+              <div class="ts-item-type">${escapeHtml(e.who)}</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;">
+              <div style="font-family:var(--font-mono);font-weight:600;">$${e.amount.toFixed(2)}</div>
+              <button class="ts-edit" onclick="tsEditItem('gastos','expenses','${e.id}')">✏️</button><button class="ts-del" onclick="tsDelete('expenses','${e.id}')">×</button>
+            </div>
+          </div>
+        </div>`).join('') : emptyMsg('Sin gastos cargados.');
+    }
+
+    else if(state.activeTab==='fotos'){
+      html += `<div class="ts-section-title">Fotos que sí o sí</div>`;
+      const CITY_LABEL = {madrid:'Madrid', barcelona:'Barcelona', paris:'París'};
+      const CITY_COL = {madrid:'var(--madrid)', barcelona:'var(--barcelona)', paris:'var(--paris)'};
+      html += d.photospots.length ? d.photospots.map(p=>`
+        <div class="ts-item" style="border-left-color:${CITY_COL[p.city]||'var(--madrid)'};">
+          <div class="ts-item-top">
+            <div style="flex:1;">
+              <div class="ts-item-title">${escapeHtml(p.place)}</div>
+              <div class="ts-item-type">${CITY_LABEL[p.city]||''}</div>
+              ${p.photo?`<img class="ts-outfit-photo" style="margin-top:8px;" src="${p.photo}" />`:''}
+              ${p.tip?`<div class="ts-item-note" style="margin-top:6px;"><strong>Cómo lograrla:</strong> ${escapeHtml(p.tip)}</div>`:''}
+              ${p.note?`<div class="ts-item-note">${escapeHtml(p.note)}</div>`:''}
+            </div>
+            <button class="ts-edit" onclick="tsEditItem('fotos','photospots','${p.id}')">✏️</button><button class="ts-del" onclick="tsDelete('photospots','${p.id}')">×</button>
+          </div>
+        </div>`).join('') : emptyMsg('Todavía no agregaste lugares para fotos.');
+    }
+
+    el.innerHTML = html;
+
+    if(state.activeTab!=='equipaje'){
+      el.innerHTML += `<button class="ts-fab" onclick="tsOpenModal('${state.activeTab}')">+</button>`;
+    }
+
+    if(state.modal){ renderModal(); }
+  }
+
+  function cityColor(dayId){
+    const label = (state.data.days.find(x=>x.id===dayId)||{}).label || '';
+    const barcelona = ['26 sep','27 sep'];
+    const paris = ['28 sep','29 sep','30 sep','1 oct','2 oct'];
+    if(barcelona.includes(label)) return 'var(--barcelona)';
+    if(paris.includes(label)) return 'var(--paris)';
+    return 'var(--madrid)';
+  }
+
+  function emptyMsg(t){ return `<div class="ts-empty">${t}</div>`; }
+  function escapeHtml(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+
+  function renderModal(){
+    const wrap = document.createElement('div');
+    wrap.className = 'ts-modal-bg';
+    wrap.onclick = (e)=>{ if(e.target===wrap) window.tsCloseModal(); };
+    let inner = '';
+
+    if(state.modal==='itinerario'){
+      const ed = state.editingId ? state.data.itinerary.find(x=>x.id===state.editingId) : null;
+      inner = `
+        <h3>${ed?'Editar ítem':'Agregar al itinerario'}</h3>
+        <label class="ts-label">Tipo</label>
+        <select class="ts-input" id="f-type">
+          <option value="hotel" ${ed&&ed.type==='hotel'?'selected':''}>Hotel</option>
+          <option value="lugar" ${ed&&ed.type==='lugar'?'selected':''}>Lugar</option>
+          <option value="calle" ${ed&&ed.type==='calle'?'selected':''}>Calle / Zona</option>
+          <option value="actividad" ${ed&&ed.type==='actividad'?'selected':''}>Actividad</option>
+        </select>
+        <div class="ts-row2">
+          <div style="flex:1;"><label class="ts-label">Hora</label><input class="ts-input" id="f-time" type="time" value="${ed?ed.time||'':''}" /></div>
+          <div style="flex:2;"><label class="ts-label">Título</label><input class="ts-input" id="f-title" placeholder="Ej: Museo Larco" value="${ed?escapeHtml(ed.title):''}" /></div>
+        </div>
+        <label class="ts-label">Nota (opcional)</label>
+        <input class="ts-input" id="f-note" placeholder="Reservar antes, llevar efectivo…" value="${ed?escapeHtml(ed.note||''):''}" />
+        <button class="ts-btn ts-btn-gold" onclick="tsSubmitItinerary()">${ed?'Guardar cambios':'Guardar'}</button>`;
+    }
+    else if(state.modal==='vuelos'){
+      const ed = state.editingId ? state.data.flights.find(x=>x.id===state.editingId) : null;
+      inner = `
+        <h3>${ed?'Editar vuelo':'Agregar vuelo'}</h3>
+        <div class="ts-row2">
+          <div style="flex:2;"><label class="ts-label">Aerolínea</label><input class="ts-input" id="f-airline" placeholder="Ej: Aerolíneas Argentinas" value="${ed?escapeHtml(ed.airline):''}" /></div>
+          <div style="flex:1;"><label class="ts-label">N° vuelo</label><input class="ts-input" id="f-number" placeholder="AR1234" value="${ed?escapeHtml(ed.number||''):''}" /></div>
+        </div>
+        <div class="ts-row2">
+          <div style="flex:1;"><label class="ts-label">Origen</label><input class="ts-input" id="f-from" placeholder="EZE" value="${ed?escapeHtml(ed.from||''):''}" /></div>
+          <div style="flex:1;"><label class="ts-label">Destino</label><input class="ts-input" id="f-to" placeholder="BRC" value="${ed?escapeHtml(ed.to||''):''}" /></div>
+        </div>
+        <label class="ts-label">Fecha</label>
+        <input class="ts-input" id="f-date" type="date" value="${ed?ed.date||'':''}" />
+        <div class="ts-row2">
+          <div style="flex:1;"><label class="ts-label">Salida</label><input class="ts-input" id="f-dep" type="time" value="${ed?ed.dep||'':''}" /></div>
+          <div style="flex:1;"><label class="ts-label">Llegada</label><input class="ts-input" id="f-arr" type="time" value="${ed?ed.arr||'':''}" /></div>
+        </div>
+        <button class="ts-btn ts-btn-gold" onclick="tsSubmitFlight()">${ed?'Guardar cambios':'Guardar'}</button>`;
+    }
+    else if(state.modal==='hoteles'){
+      const ed = state.editingId ? state.data.hotels.find(x=>x.id===state.editingId) : null;
+      inner = `
+        <h3>${ed?'Editar hotel':'Agregar hotel'}</h3>
+        <label class="ts-label">Nombre</label>
+        <input class="ts-input" id="f-hname" placeholder="Ej: Hotel Panamericano" value="${ed?escapeHtml(ed.name):''}" />
+        <label class="ts-label">Dirección</label>
+        <input class="ts-input" id="f-haddr" placeholder="Calle y número" value="${ed?escapeHtml(ed.address||''):''}" />
+        <div class="ts-row2">
+          <div style="flex:1;"><label class="ts-label">Check-in</label><input class="ts-input" id="f-hin" type="date" value="${ed?ed.checkin||'':''}" /></div>
+          <div style="flex:1;"><label class="ts-label">Check-out</label><input class="ts-input" id="f-hout" type="date" value="${ed?ed.checkout||'':''}" /></div>
+        </div>
+        <label class="ts-label">Nota (opcional)</label>
+        <input class="ts-input" id="f-hnote" placeholder="Código de reserva, wifi…" value="${ed?escapeHtml(ed.note||''):''}" />
+        <button class="ts-btn ts-btn-gold" onclick="tsSubmitHotel()">${ed?'Guardar cambios':'Guardar'}</button>`;
+    }
+    else if(state.modal==='outfits'){
+      const ed = state.editingId ? state.data.outfits.find(x=>x.id===state.editingId) : null;
+      inner = `
+        <h3>${ed?'Editar outfit':'Agregar outfit'} — ${escapeHtml((state.data.days.find(x=>x.id===state.activeDay)||{}).label||'')}</h3>
+        ${ed&&ed.photo?`<img class="ts-outfit-photo" src="${ed.photo}" style="margin-bottom:8px;" />`:''}
+        <label class="ts-label">${ed?'Reemplazar foto (opcional)':'Foto'}</label>
+        <input class="ts-input" id="f-photo" type="file" accept="image/*" />
+        <label class="ts-label">Nota (opcional)</label>
+        <input class="ts-input" id="f-onote" placeholder="Ej: para la cena, llevar campera" value="${ed?escapeHtml(ed.note||''):''}" />
+        <button class="ts-btn ts-btn-gold" onclick="tsSubmitOutfit()">${ed?'Guardar cambios':'Guardar'}</button>`;
+    }
+    else if(state.modal==='gastos'){
+      const ed = state.editingId ? state.data.expenses.find(x=>x.id===state.editingId) : null;
+      inner = `
+        <h3>${ed?'Editar gasto':'Agregar gasto'}</h3>
+        <label class="ts-label">Concepto</label>
+        <input class="ts-input" id="f-exlabel" placeholder="Ej: Cena día 2" value="${ed?escapeHtml(ed.label):''}" />
+        <div class="ts-row2">
+          <div style="flex:1;"><label class="ts-label">Monto</label><input class="ts-input" id="f-examount" type="number" step="0.01" placeholder="0.00" value="${ed?ed.amount:''}" /></div>
+          <div style="flex:1;"><label class="ts-label">Quién pagó</label><input class="ts-input" id="f-exwho" placeholder="Nombre" value="${ed?escapeHtml(ed.who||''):''}" /></div>
+        </div>
+        <button class="ts-btn ts-btn-gold" onclick="tsSubmitExpense()">${ed?'Guardar cambios':'Guardar'}</button>`;
+    }
+    else if(state.modal==='fotos'){
+      const ed = state.editingId ? state.data.photospots.find(x=>x.id===state.editingId) : null;
+      inner = `
+        <h3>${ed?'Editar lugar para foto':'Agregar lugar para foto'}</h3>
+        <label class="ts-label">Ciudad</label>
+        <select class="ts-input" id="f-pcity">
+          <option value="madrid" ${ed&&ed.city==='madrid'?'selected':''}>Madrid</option>
+          <option value="barcelona" ${ed&&ed.city==='barcelona'?'selected':''}>Barcelona</option>
+          <option value="paris" ${ed&&ed.city==='paris'?'selected':''}>París</option>
+        </select>
+        <label class="ts-label">Lugar</label>
+        <input class="ts-input" id="f-pplace" placeholder="Ej: Rue Crémieux" value="${ed?escapeHtml(ed.place):''}" />
+        ${ed&&ed.photo?`<img class="ts-outfit-photo" src="${ed.photo}" style="margin:6px 0;" />`:''}
+        <label class="ts-label">${ed?'Reemplazar foto (opcional)':'Foto modelo / inspiración (opcional)'}</label>
+        <input class="ts-input" id="f-pphoto" type="file" accept="image/*" />
+        <label class="ts-label">Cómo lograrla (opcional)</label>
+        <input class="ts-input" id="f-ptip" placeholder="Ej: ir temprano, pararse en el medio de la calle" value="${ed?escapeHtml(ed.tip||''):''}" />
+        <button class="ts-btn ts-btn-gold" onclick="tsSubmitPhoto()">${ed?'Guardar cambios':'Guardar'}</button>`;
+    }
+
+    wrap.innerHTML = `<div class="ts-modal" style="position:relative;"><button class="ts-close" onclick="tsCloseModal()">×</button>${inner}</div>`;
+    document.getElementById('tripsync-root').appendChild(wrap);
+  }
+
+  document.addEventListener('focusin', function(e){
+    const tag = e.target.tagName;
+    if(tag==='INPUT' || tag==='TEXTAREA' || tag==='SELECT'){
+      setTimeout(function(){
+        try{ e.target.scrollIntoView({block:'center', behavior:'smooth'}); }catch(err){}
+      }, 300);
+    }
+  });
+
+  render();
+})();
+</script>
+
+</body>
+</html>
